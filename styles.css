@@ -1,0 +1,28 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.wraper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 202px 202px 202px;
+    background-color: lightskyblue;
+}
+
+.wraper{
+    border:1px black solid;
+    text-align: center;
+    padding:1em;
+    
+}
+
+.wraper>div{
+    margin-top: 40px;
+    border:1px magenta solid;
+    border-radius: 8px;
+
+}
